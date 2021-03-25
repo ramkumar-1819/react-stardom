@@ -1,0 +1,50 @@
+.table{
+    margin: auto;
+    width: 800px;
+    background-color: white;
+}
+.table,tr,th,td{
+    border:1px solid gray;
+    border-collapse: collapse;
+}
+.table td{
+    text-align: center;
+}
+body{
+    background-color: purple;
+}
+.table img{
+    width:100px;
+    height:100px;
+}
+.table button{
+    background-color: red;
+    color: white;
+    border:1px solid black;
+    outline: none;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+.random,.sort,.popularity{
+    outline: none;
+    border:1px solid black;
+    cursor: pointer;
+    margin-right: 5px;
+    color: white;
+}
+.random{
+    background-color: blue;
+}
+.sort{
+    background-color: gray;
+}
+.popularity{
+    background-color: rgb(62, 182, 230);
+}
+.details{
+    padding-top:15px;
+}
