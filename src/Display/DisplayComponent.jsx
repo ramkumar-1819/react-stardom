@@ -32,7 +32,7 @@ class Display extends React.Component{
             details.shift()
         }
         else{
-            details.splice(ind-1,ind)
+            details.splice(ind,ind)
         }
         this.setState({array:details})
     }
